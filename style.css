@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 280px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.picture {
+    background: url(./images/image-equilibrium.jpg) center  no-repeat;
+    height: 280px;
+    width: 280px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.picture:hover {
+    cursor: pointer;
+    background: url(./images/icon-view.svg) center  no-repeat;
+    background-color: hsl(178, 100%, 50%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.30rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+}
+
+h1:hover, em:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    font-weight: 300;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.eth {
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    margin-left: 8px;
+}
+
+.time {
+    font-weight: 300;
+    margin-left: 8px;
+}
+
+.price, .time-left {
+    display: inline-flex;
+}
+
+.author {
+    display: inline-flex;
+    margin-top: 16px;
+}
+
+.image-avatar {
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+}
+
+.author-info {
+    font-weight: 300;
+    margin: 5px 0 0 14px;
+}
+
+em {
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+}
